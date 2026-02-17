@@ -70,7 +70,7 @@ export async function POST(req: Request) {
 
         // AI Processing
         const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" })
-        bitumen
+
         const prompt = `
             You are an expert study assistant. Create a high-quality, structured study guide from this content.
             
