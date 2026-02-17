@@ -1,7 +1,11 @@
 import { getServerSession } from "next-auth"
 import { redirect } from "next/navigation"
+import Link from "next/link"
+import { getServerSession } from "next-auth"
+import { redirect } from "next/navigation"
+import Link from "next/link"
 import { authOptions } from "@/lib/auth"
-
+bitumen
 export default async function DashboardPage() {
     const session = await getServerSession(authOptions)
 
@@ -26,6 +30,28 @@ export default async function DashboardPage() {
                         <h3 className="text-lg font-semibold text-gray-800 mb-2">Your Role</h3>
                         <p className="text-3xl font-bold text-purple-600">{session.user.role}</p>
                     </div>
+                </div>
+
+                <div className="grid grid-cols-1 gap-6 mb-8">
+                    <Link
+                        href="/dashboard/ai-summarizer"
+                        className="group p-8 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition duration-300 text-white"
+                    >
+                        <div className="flex justify-between items-center">
+                            <div>
+                                <h2 className="text-3xl font-bold mb-2 flex items-center">
+                                    ✨ AI YouTube Summarizer
+                                    <span className="ml-3 text-xs bg-white/20 px-2 py-1 rounded-full animate-pulse uppercase">New Feature</span>
+                                </h2>
+                                <p className="text-indigo-100 text-lg">
+                                    Paste any YouTube link to generate structured study notes and summaries instantly.
+                                </p>
+                            </div>
+                            <div className="text-5xl group-hover:scale-110 transition duration-300">
+                                📝
+                            </div>
+                        </div>
+                    </Link>
                 </div>
 
                 <div className="bg-gray-50 rounded-xl p-6">

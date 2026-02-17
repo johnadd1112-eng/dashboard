@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server"
+export const dynamic = "force-dynamic"
 import ytdl from "@distube/ytdl-core"
 import { GoogleGenerativeAI } from "@google/generative-ai"
 import { parseStringPromise } from "xml2js"
