@@ -1,11 +1,8 @@
 import { getServerSession } from "next-auth"
 import { redirect } from "next/navigation"
 import Link from "next/link"
-import { getServerSession } from "next-auth"
-import { redirect } from "next/navigation"
-import Link from "next/link"
 import { authOptions } from "@/lib/auth"
-bitumen
+
 export default async function DashboardPage() {
     const session = await getServerSession(authOptions)
 
