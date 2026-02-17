@@ -1,0 +1,576 @@
+﻿
+
+StatusCode        : 2
+                    0
+                    0
+StatusDescription : O
+                    K
+Content           : {
+                     
+                     
+                    "
+                    m
+                    o
+                    d
+                    e
+                    l
+                    s
+                    "
+                    :
+                     
+                    [
+                     
+                     
+                     
+                     
+                    {
+                     
+                     
+                     
+                     
+                     
+                     
+                    "
+                    n
+                    a
+                    m
+                    e
+                    "
+                    :
+                     
+                    "
+                    m
+                    o
+                    d
+                    e
+                    l
+                    s
+                    /
+                    g
+                    e
+                    m
+                    i
+                    n
+                    i
+                    -
+                    2
+                    .
+                    5
+                    -
+                    f
+                    l
+                    a
+                    s
+                    h
+                    "
+                    ,
+                     
+                     
+                     
+                     
+                     
+                     
+                    "
+                    v
+                    e
+                    r
+                    s
+                    i
+                    o
+                    n
+                    "
+                    :
+                     
+                    "
+                    0
+                    0
+                    1
+                    "
+                    ,
+                     
+                     
+                     
+                     
+                     
+                     
+                    "
+                    d
+                    i
+                    s
+                    p
+                    l
+                    a
+                    y
+                    N
+                    a
+                    m
+                    e
+                    "
+                    :
+                     
+                    "
+                    G
+                    e
+                    m
+                    i
+                    n
+                    i
+                     
+                    2
+                    .
+                    5
+                     
+                    F
+                    l
+                    a
+                    s
+                    h
+                    "
+                    ,
+                     
+                     
+                     
+                     
+                     
+                     
+                    "
+                    d
+                    e
+                    s
+                    c
+                    r
+                    i
+                    p
+                    t
+                    i
+                    o
+                    n
+                    "
+                    :
+                     
+                    "
+                    S
+                    t
+                    a
+                    b
+                    l
+                    e
+                     
+                    v
+                    e
+                    r
+                    s
+                    i
+                    o
+                    n
+                     
+                    o
+                    f
+                     
+                    G
+                    e
+                    m
+                    i
+                    n
+                    i
+                     
+                    2
+                    .
+                    5
+                     
+                    F
+                    l
+                    a
+                    s
+                    h
+                    ,
+                     
+                    o
+                    u
+                    r
+                     
+                    m
+                    i
+                    d
+                    -
+                    s
+                    i
+                    z
+                    e
+                     
+                    m
+                    .
+                    .
+                    .
+RawContent        : H
+                    T
+                    T
+                    P
+                    /
+                    1
+                    .
+                    1
+                     
+                    2
+                    0
+                    0
+                     
+                    O
+                    K
+                    V
+                    a
+                    r
+                    y
+                    :
+                     
+                    X
+                    -
+                    O
+                    r
+                    i
+                    g
+                    i
+                    n
+                    ,
+                    R
+                    e
+                    f
+                    e
+                    r
+                    e
+                    r
+                    ,
+                    O
+                    r
+                    i
+                    g
+                    i
+                    n
+                    ,
+                    A
+                    c
+                    c
+                    e
+                    p
+                    t
+                    -
+                    E
+                    n
+                    c
+                    o
+                    d
+                    i
+                    n
+                    g
+                    X
+                    -
+                    X
+                    S
+                    S
+                    -
+                    P
+                    r
+                    o
+                    t
+                    e
+                    c
+                    t
+                    i
+                    o
+                    n
+                    :
+                     
+                    0
+                    X
+                    -
+                    F
+                    r
+                    a
+                    m
+                    e
+                    -
+                    O
+                    p
+                    t
+                    i
+                    o
+                    n
+                    s
+                    :
+                     
+                    S
+                    A
+                    M
+                    E
+                    O
+                    R
+                    I
+                    G
+                    I
+                    N
+                    X
+                    -
+                    C
+                    o
+                    n
+                    t
+                    e
+                    n
+                    t
+                    -
+                    T
+                    y
+                    p
+                    e
+                    -
+                    O
+                    p
+                    t
+                    i
+                    o
+                    n
+                    s
+                    :
+                     
+                    n
+                    o
+                    s
+                    n
+                    i
+                    f
+                    f
+                    S
+                    e
+                    r
+                    v
+                    e
+                    r
+                    -
+                    T
+                    i
+                    m
+                    i
+                    n
+                    g
+                    :
+                     
+                    g
+                    f
+                    e
+                    t
+                    4
+                    t
+                    7
+                    ;
+                     
+                    d
+                    u
+                    r
+                    =
+                    6
+                    5
+                    A
+                    l
+                    t
+                    -
+                    S
+                    v
+                    c
+                    :
+                     
+                    h
+                    3
+                    =
+                    "
+                    :
+                    4
+                    4
+                    3
+                    "
+                    ;
+                     
+                    m
+                    .
+                    .
+                    .
+Forms             : {
+                    }
+Headers           : {
+                    [
+                    V
+                    a
+                    r
+                    y
+                    ,
+                     
+                    X
+                    -
+                    O
+                    r
+                    i
+                    g
+                    i
+                    n
+                    ,
+                    R
+                    e
+                    f
+                    e
+                    r
+                    e
+                    r
+                    ,
+                    O
+                    r
+                    i
+                    g
+                    i
+                    n
+                    ,
+                    A
+                    c
+                    c
+                    e
+                    p
+                    t
+                    -
+                    E
+                    n
+                    c
+                    o
+                    d
+                    i
+                    n
+                    g
+                    ]
+                    ,
+                     
+                    [
+                    X
+                    -
+                    X
+                    S
+                    S
+                    -
+                    P
+                    r
+                    o
+                    t
+                    e
+                    c
+                    t
+                    i
+                    o
+                    n
+                    ,
+                     
+                    0
+                    ]
+                    ,
+                     
+                    [
+                    X
+                    -
+                    F
+                    r
+                    a
+                    m
+                    e
+                    -
+                    O
+                    p
+                    t
+                    i
+                    o
+                    n
+                    s
+                    ,
+                     
+                    S
+                    A
+                    M
+                    E
+                    O
+                    R
+                    I
+                    G
+                    I
+                    N
+                    ]
+                    ,
+                     
+                    [
+                    X
+                    -
+                    C
+                    o
+                    n
+                    t
+                    e
+                    n
+                    t
+                    -
+                    T
+                    y
+                    p
+                    e
+                    -
+                    O
+                    p
+                    t
+                    i
+                    o
+                    n
+                    s
+                    ,
+                     
+                    n
+                    o
+                    s
+                    n
+                    i
+                    f
+                    f
+                    ]
+                    .
+                    .
+                    .
+                    }
+Images            : {
+                    }
+InputFields       : {
+                    }
+Links             : {
+                    }
+ParsedHtml        : m
+                    s
+                    h
+                    t
+                    m
+                    l
+                    .
+                    H
+                    T
+                    M
+                    L
+                    D
+                    o
+                    c
+                    u
+                    m
+                    e
+                    n
+                    t
+                    C
+                    l
+                    a
+                    s
+                    s
+RawContentLength  : 2
+                    0
+                    4
+                    5
+                    1
+
+
+

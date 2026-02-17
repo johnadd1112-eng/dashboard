@@ -69,8 +69,8 @@ export async function POST(req: Request) {
         console.log("Total chars for summary:", transcriptText.length)
 
         // AI Processing
-        const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" })
-
+        const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" })
+        bitumen
         const prompt = `
             You are an expert study assistant. Create a high-quality, structured study guide from this content.
             
