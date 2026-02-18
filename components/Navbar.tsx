@@ -36,6 +36,12 @@ export default function Navbar() {
                                 >
                                     ✨ AI YouTube Tool
                                 </Link>
+                                <Link
+                                    href="/dashboard/doc-qa"
+                                    className="px-4 py-2 rounded-lg bg-violet-500 hover:bg-violet-400 transition font-semibold shadow-inner"
+                                >
+                                    📄 Doc Q&A
+                                </Link>
                             </div>
                         )}
                     </div>
