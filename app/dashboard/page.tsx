@@ -29,23 +29,42 @@ export default async function DashboardPage() {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 gap-6 mb-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
                     <Link
                         href="/dashboard/ai-summarizer"
                         className="group p-8 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition duration-300 text-white"
                     >
                         <div className="flex justify-between items-center">
                             <div>
-                                <h2 className="text-3xl font-bold mb-2 flex items-center">
+                                <h2 className="text-2xl font-bold mb-2 flex items-center">
                                     ✨ AI YouTube Summarizer
-                                    <span className="ml-3 text-xs bg-white/20 px-2 py-1 rounded-full animate-pulse uppercase">New Feature</span>
                                 </h2>
-                                <p className="text-indigo-100 text-lg">
-                                    Paste any YouTube link to generate structured study notes and summaries instantly.
+                                <p className="text-indigo-100">
+                                    Paste any YouTube link to generate structured study notes instantly.
                                 </p>
                             </div>
                             <div className="text-5xl group-hover:scale-110 transition duration-300">
                                 📝
+                            </div>
+                        </div>
+                    </Link>
+
+                    <Link
+                        href="/dashboard/doc-qa"
+                        className="group p-8 bg-gradient-to-r from-violet-600 to-indigo-600 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition duration-300 text-white"
+                    >
+                        <div className="flex justify-between items-center">
+                            <div>
+                                <h2 className="text-2xl font-bold mb-2 flex items-center">
+                                    📄 Doc Q&amp;A
+                                    <span className="ml-3 text-xs bg-white/20 px-2 py-1 rounded-full animate-pulse uppercase">New</span>
+                                </h2>
+                                <p className="text-violet-100">
+                                    Upload a PDF or text file and ask AI questions about its content.
+                                </p>
+                            </div>
+                            <div className="text-5xl group-hover:scale-110 transition duration-300">
+                                🤖
                             </div>
                         </div>
                     </Link>
