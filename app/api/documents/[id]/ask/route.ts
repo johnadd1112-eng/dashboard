@@ -6,7 +6,7 @@ import Groq from "groq-sdk"
 
 export const dynamic = "force-dynamic"
 
-const groq = new Groq({ apiKey: process.env.GROQ_API_KEY })
+// Groq client is instantiated inside the handler to avoid build-time errors when ENV is missing
 
 // Split text into overlapping chunks for better context coverage
 function chunkText(text: string, chunkSize = 600, overlap = 100): string[] {
@@ -50,6 +50,8 @@ export async function POST(
             error: "Groq API key not configured. Please add your GROQ_API_KEY to .env.local (get a free key at console.groq.com)."
         }, { status: 503 })
     }
+
+    const groq = new Groq({ apiKey: process.env.GROQ_API_KEY })
 
     try {
         const { question } = await req.json()
