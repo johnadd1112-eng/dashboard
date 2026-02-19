@@ -29,41 +29,60 @@ export default async function DashboardPage() {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
                     <Link
                         href="/dashboard/ai-summarizer"
-                        className="group p-8 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition duration-300 text-white"
+                        className="group p-8 bg-gradient-to-br from-indigo-600 to-indigo-700 rounded-3xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition duration-300 text-white"
                     >
-                        <div className="flex justify-between items-center">
-                            <div>
+                        <div className="flex justify-between items-start">
+                            <div className="flex-1">
                                 <h2 className="text-2xl font-bold mb-2 flex items-center">
-                                    ✨ AI YouTube Summarizer
+                                    ✨ Video Summarizer
                                 </h2>
-                                <p className="text-indigo-100">
-                                    Paste any YouTube link to generate structured study notes instantly.
+                                <p className="text-indigo-100/80 text-sm">
+                                    Convert YouTube videos into structured study notes instantly.
                                 </p>
                             </div>
-                            <div className="text-5xl group-hover:scale-110 transition duration-300">
+                            <div className="text-4xl group-hover:scale-110 transition duration-300 ml-4">
                                 📝
                             </div>
                         </div>
                     </Link>
 
                     <Link
-                        href="/dashboard/doc-qa"
-                        className="group p-8 bg-gradient-to-r from-violet-600 to-indigo-600 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition duration-300 text-white"
+                        href="/dashboard/workspaces"
+                        className="group p-8 bg-gradient-to-br from-purple-600 to-pink-600 rounded-3xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition duration-300 text-white"
                     >
-                        <div className="flex justify-between items-center">
-                            <div>
+                        <div className="flex justify-between items-start">
+                            <div className="flex-1">
                                 <h2 className="text-2xl font-bold mb-2 flex items-center">
-                                    📄 Doc Q&amp;A
-                                    <span className="ml-3 text-xs bg-white/20 px-2 py-1 rounded-full animate-pulse uppercase">New</span>
+                                    📂 AI Workspaces
+                                    <span className="ml-3 text-[10px] bg-white/20 px-2 py-0.5 rounded-full animate-pulse uppercase tracking-widest font-bold">Pro</span>
                                 </h2>
-                                <p className="text-violet-100">
-                                    Upload a PDF or text file and ask AI questions about its content.
+                                <p className="text-purple-100/80 text-sm">
+                                    Ask questions across multiple documents and search the web.
                                 </p>
                             </div>
-                            <div className="text-5xl group-hover:scale-110 transition duration-300">
+                            <div className="text-4xl group-hover:scale-110 transition duration-300 ml-4">
+                                🚀
+                            </div>
+                        </div>
+                    </Link>
+
+                    <Link
+                        href="/dashboard/doc-qa"
+                        className="group p-8 bg-gradient-to-br from-violet-600 to-indigo-600 rounded-3xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition duration-300 text-white"
+                    >
+                        <div className="flex justify-between items-start">
+                            <div className="flex-1">
+                                <h2 className="text-2xl font-bold mb-2 flex items-center">
+                                    📄 Doc Q&amp;A
+                                </h2>
+                                <p className="text-violet-100/80 text-sm">
+                                    Quick analysis for individual PDF or text files.
+                                </p>
+                            </div>
+                            <div className="text-4xl group-hover:scale-110 transition duration-300 ml-4">
                                 🤖
                             </div>
                         </div>

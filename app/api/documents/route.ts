@@ -31,6 +31,7 @@ export async function POST(req: Request) {
     try {
         const formData = await req.formData()
         const file = formData.get("file") as File | null
+        const workspaceId = formData.get("workspaceId") as string | null
 
         if (!file) {
             return NextResponse.json({ error: "No file provided" }, { status: 400 })
@@ -70,9 +71,20 @@ export async function POST(req: Request) {
             return NextResponse.json({ error: "Could not extract text from the file. Please ensure it contains readable text." }, { status: 400 })
         }
 
+        // Verify workspace ownership if workspaceId is provided
+        if (workspaceId) {
+            const workspace = await prisma.workspace.findUnique({
+                where: { id: workspaceId, userId: session.user.id }
+            })
+            if (!workspace) {
+                return NextResponse.json({ error: "Workspace not found or unauthorized" }, { status: 404 })
+            }
+        }
+
         const document = await prisma.document.create({
             data: {
                 userId: session.user.id,
+                workspaceId: workspaceId || null,
                 name: file.name,
                 content: content.substring(0, 500000), // cap at 500k chars
                 size: file.size,
